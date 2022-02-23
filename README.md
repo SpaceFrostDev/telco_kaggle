@@ -2,9 +2,9 @@
 Below I offer an executive summary of how I achieved a prediction accuracy of `91.30%` on the [Telco Customer Churn](https://www.kaggle.com/blastchar/telco-customer-churn) dataset available on Kaggle. Please follow the markdown cells in my notebook to understand my thought process in depth while I tackled this dataset. 
 
 ## Our Features
-![the_features](images/features.png)  
+![the_features](images/the_features.png)  
 ## The Target
-1[the_target](images/target.png)  
+![the_target](images/the_target.png)  
 ## The libraries
 Please run `conda env create -f environment.yml` from this repositories root directory to install all required libraries.  Summarizing, the primary ones are: `pytorch`, `imblearn`, `sklearn` & `pandas`.  
 
