@@ -1,4 +1,4 @@
-name: telco
+name: kaggletab
 channels:
   - anaconda
   - conda-forge
