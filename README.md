@@ -2,19 +2,22 @@
 I developed, to my knowledge, the most accurate predictive model on Kaggle's [Telco Customer Churn](https://www.kaggle.com/blastchar/telco-customer-churn) dataset with a validation set prediction accuracy of `91.30%`. Below I offer an executive summary entailing how I tackle tabular binary classification problems.  
 ![perf](images/perf_printout.png)  
 
-## Our Features
+## Our Features  
+
 Features are displayed along with their corresponding possible unique values.  
 ![the_features](images/the_features.png)  
----  
-## The Target
-In this dataset, we are predicting whether or not a customer will discontinue their current service contract with Telco. 
+ 
+## The Target  
+
+In this dataset, we are predicting whether or not a customer will discontinue their current service contract with Telco.  
 ![the_targets](images/the_targets.png)  
----  
+
 ## The libraries
 To install the requisite libraries run `conda env create -f environment.yml` from this repositories root directory to initialize the vitrual environment and install all required libraries.  
 The primary dependencies for this project are [PyTorch](https://pytorch.org/docs/stable/index.html), [imblearn](https://imbalanced-learn.org/stable/introduction.html#introduction), [sklearn](https://scikit-learn.org/stable/), and [pandas](https://pandas.pydata.org/docs/reference/index.html).    
 
-## The Model
+## The Model  
+
 A simple dense neural network with three layers, halfing in size after each. No embedding matrix is used as there are no high-cardinality categorical variables with which to contend.  
 ![deeper_model](images/deeper_model_summary.png)  
 ---  
